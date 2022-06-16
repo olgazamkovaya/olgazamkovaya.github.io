@@ -1,0 +1,28 @@
+@import "variables.scss";
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  font-family: $familySuisse;
+  background-color: $blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  @media screen and (max-width: $desktop) {
+    max-width: 100%;
+  }
+}

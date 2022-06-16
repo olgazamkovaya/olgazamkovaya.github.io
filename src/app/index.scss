@@ -1,0 +1,10 @@
+//Global styles
+@import "./shared/normalize.scss";
+@import "./shared/variables";
+@import "./shared/global.scss";
+
+//Components styles
+@import "components/header";
+@import "components/footer";
+@import "components/popup";
+@import "components/style";

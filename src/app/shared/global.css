@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Suisse Intl";
+  src: url(../fonts/SuisseIntlMedium.ttf);
+}
+@font-face {
+  font-family: "WulkanDisplayItalic";
+  src: url(../fonts/WulkanDisplayItalic.otf);
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  font-family: "Suisse Intl", sans-serif;
+  background-color: #000055;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1366px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=global.css.map */

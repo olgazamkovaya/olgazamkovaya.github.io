@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url(../fonts/SuisseIntlMedium.ttf);
+}
+
+@font-face {
+  font-family: 'WulkanDisplayItalic';
+  src: url(../fonts/WulkanDisplayItalic.otf);
+}
+
+//Font
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+
+$familySuisse: 'Suisse Intl', sans-serif;
+$familyWulkan: 'WulkanDisplayItalic', sans-serif;
+
+$font-154: 154px;
+$font-120: 120px;
+$font-110: 110px;
+$font-76: 76px;
+$font-70: 70px;
+$font-58: 58px;
+$font-55: 55px;
+$font-44: 44px;
+$font-42: 42px;
+$font-40: 40px;
+$font-36: 36px;
+$font-34: 34px;
+$font-32: 32px;
+$font-30: 30px;
+$font-28: 28px;
+$font-26: 26px;
+$font-24: 24px;
+$font-22: 22px;
+$font-21: 21px;
+$font-20: 20px;
+$font-19: 19px;
+$font-17: 17px;
+$font-16: 16px;
+$font-15: 15px;
+$font-14: 14px;
+$font-12: 12px;
+$font-11: 11px;
+$font-10: 10px;
+$font-9: 9px;
+$font-8: 8px;
+$font-6: 6px;
+$font-5: 5px;
+
+//Colors
+$blue: #000055;
+$darkBlue: #00003D;
+$lightgrey: #ededed;
+$white: #e8e8e8;
+$magenta: #ff267e;
+$green: #05c489;
+
+//Breakpoints
+$mobile: 375px;
+$tabletSmall: 768px;
+$tabletBig: 1024px;
+$desktop: 1366px;
+$fullHd: 1920px;

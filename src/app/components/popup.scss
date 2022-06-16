@@ -1,0 +1,35 @@
+.container_cover {
+  background-color: $blue;
+  padding: 20px;
+  position: relative;
+  height: 232px;
+}
+.container_cover-title {
+  color: $magenta;
+  font-weight: $semibold;
+  font-size: $font-28;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.container_cover-title--italic {
+  font-family: $familyWulkan;
+  font-style: italic;
+}
+.background-logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-image: url("../app/images/favbet.png");
+  width: 212px;
+  height: 93px;
+}
+.modal-header {
+  background-color: $blue;
+  border: none;
+  padding: 0 5px;
+}
+.close {
+  color: $white;
+}
